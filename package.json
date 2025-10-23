@@ -1,0 +1,22 @@
+{
+  "name": "ksense",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "Eric Miller",
+  "type": "module",
+  "main": "main.ts",
+  "engines": {
+    "node": ">=23.6.0"
+  },
+  "scripts": {
+    "start": "node main.ts"
+  },
+  "dependencies": {
+    "axios": "^1.12.2",
+    "dotenv": "^17.2.3"
+  },
+  "devDependencies": {
+    "@types/node": "^24.9.1"
+  }
+}
